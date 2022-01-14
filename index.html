@@ -1,1 +1,78 @@
-<h1 id="title">Spring 2022 SASE Survey Form</h1>
+<html lang="en">
+<head>
+  <style>
+    body
+    {
+      font-family: sans-serif;
+      padding-left: 20%;
+      padding-right: 20;
+    }
+    label
+    {
+      font-size: 18px;
+      display: block;
+      padding-bottom: 10px;
+    }
+    form
+    {
+      background-color: #0668B3;
+    }
+    h1
+    {
+      background-color: #7DC242;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="title">
+    Spring 2022 SASE Survey Form
+  </h1>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <p id="description">
+    Thank you for taking the time to improve our organization!
+  </p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" name="name" placeholder="Enter your name" required>
+    <br>
+    <br>
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="Enter your email" required>
+    <br>
+    <br>
+    <label id="number-label" for="number">Year Classification:</label>
+    <input id="number" type="number" name="number" min="1" max="4" placeholder="1" required>
+    <br>
+    <br>
+    <label>What option best describes your current role?</label>
+      <select id="dropdown">
+        <option value="Officer">Officer</option>
+        <option value="Member">Member</option>
+        <option value="Potential Member">Potential Member</option>
+      </select>
+    <br>
+    <br>
+    <label>What event are you most excited for?</label>
+    <input class="left" name="event" type="radio" value="1st General Meeting">1st General Meeting<br>
+    <input class="left" name="event" type="radio" value="Lunar New Year Social">Lunar New Year Social<br>
+    <input class="left" name="event" type="radio" value="Apprenticeship Social">Apprenticeship Social<br>
+    <input class="left" name="event" type="radio" value="Resume Critique">Resume Critique<br>
+    <br>
+    <label>What would you like to see more of?</label>
+    <input class="left" name="event" type="checkbox" value="General Meetings">General Meetings<br>
+    <input class="left" name="event" type="checkbox" value="Socials">Socials<br>
+    <input class="left"  name="event" type="checkbox" value="Professional Development">Professional Development<br>
+    <input class="left"  name="event" type="checkbox" value="Workshops">Workshops<br>
+    <input class="left"  name="event" type="checkbox" value="Cultural Spotlights">Cultural Spotlights<br>
+    <input class="left"  name="event" type="checkbox" value="Social Media Posts">Social Media Posts<br>
+    <br>
+    <label>Do you have any additional feedback?</label>
+    <textarea placeholder="Additonal comments...">
+    </textarea>
+    <br>
+    <input id="submit" type="submit">
+  </form>
+</body>
+
+</html>
