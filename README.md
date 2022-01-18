@@ -6,6 +6,6 @@ It's the second project of my freeCodeCamp Responsive Web Design portfolio.
 
 You can see this project live at the following URL:
 
-### [Survey Form](https://lancechincodes.github.io/survey_form/)
+### [Survey Form](https://lancechincodes.github.io/SASE-Survey-Form/)
 
 Cheers!
