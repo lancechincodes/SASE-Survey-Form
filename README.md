@@ -1,7 +1,9 @@
 A Survey Form Project
 
-This makes up the second part of a portfolio on freeCodeCamp.
+This is a survey form to gauge SASE-UH's members' interests.
 
-See the working version here:
+It's the second project of my freeCodeCamp Responsive Web Design portfolio.
 
-https://lancechincodes.github.io/survey_form/
+You can see this project live at the following URL: https://lancechincodes.github.io/survey_form/.
+
+Cheers!
